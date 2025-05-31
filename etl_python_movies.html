@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>IZC</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Tulen Photography HTML Template"">
+	<meta name="keywords" content="photo, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/themify-icons.css"/>
+	<link rel="stylesheet" href="css/accordion.css"/>
+	<link rel="stylesheet" href="css/fresco.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="img/ico/logo3.ico">
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Offcanvas Menu Section -->
+	<div class="menu-wrapper">
+		<div class="menu-switch">
+			<i class="ti-menu"></i>
+		</div>
+		<div class="menu-social-warp">
+			<div class="menu-social">
+				<a href="https://www.facebook.com/amcdanymx999/"target="_blank"><i class="ti-facebook" ></i></a>
+				<a href="https://www.linkedin.com/in/danielmcastillo/" target="_blank"><i class="ti-linkedin"></i></a>
+				<a href="https://www.instagram.com/amcdany_/"target="_blank"><i class="ti-instagram"></i></a>
+				<a href="https://github.com/DanielAMCastillo"target="_blank"><i class="ti-github"></i></a>
+				<a href="https://www.youtube.com/channel/UCm8-X9JK8dR3QwCnQLEAAbw"target="_blank"><i class="ti-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="side-menu-wrapper">
+		<div class="sm-header">
+			<div class="menu-close">
+				<i class="ti-arrow-left"></i>
+			</div>
+			<a href="about.html" class="site-logo">
+				<img src="img/logodany.png" alt="">
+			</a>
+		</div>
+		<nav class="main-menu">
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="projects.html">Programming</a></li>
+				<li><a href="projects_datascience.html">Data science</a></li>
+				<li><a href="mailto:danielmoralescast@hotmail.com">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="sm-footer">
+			<div class="sm-socail">
+				<a href="https://www.facebook.com/amcdanymx999/"target="_blank"><i class="ti-facebook" ></i></a>
+				<a href="https://www.linkedin.com/in/danielmcastillo/" target="_blank"><i class="ti-linkedin"></i></a>
+				<a href="https://www.instagram.com/amcdany_/"target="_blank"><i class="ti-instagram"></i></a>
+				<a href="https://github.com/DanielAMCastillo"target="_blank"><i class="ti-github"></i></a>
+				<a href="https://www.youtube.com/channel/UCm8-X9JK8dR3QwCnQLEAAbw"target="_blank"><i class="ti-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+	<!-- Offcanvas Menu Section end -->
+
+	<section class="blog-details">
+    <div class="container">
+        <div class="single-blog-page">
+            <h2 class="text-center">Netflix Titles - ETL Process With Python</h2>
+
+            <!-- Imagen principal -->
+            <h2 class="text-center">Abstract</h2>
+			<p>ETL stands for Extract, Transform, Load, a process used in data integration, especially in data warehousing and business intelligence. Here’s a simple breakdown:
+                Extract: Data is taken from various source systems, like databases, files, APIs, etc.
+                Transform: The extracted data is cleaned, formatted, and transformed into a suitable structure.
+                Load: The transformed data is then loaded into a target system, usually a data warehouse, for analysis and reporting.
+                This process ensures that data from multiple sources is combined and prepared in a usable format. 
+            </p>
+            <div class="blog-thumb">
+				<img src="img/data_science/etl_python_movies/etl.png"
+					alt="desicion_rules" 
+					class="img-fluid mx-auto d-block" 
+					style="max-width:70%; height:auto;">
+			</div>
+            <div class="row blog-gallery mt-4">
+                <div class="col-lg-9 mx-auto">
+                    <div class="row g-3">
+                        <!-- Imagen 1 y texto -->
+                        <div class="col-12 mt-4"> <!-- Usamos col-12 para que ocupe toda la fila -->
+                            <h2 class="text-center">Process</h2>
+                            <p>Dataset from Kaggle - The dataset consists of meta details about the movies and tv shows such as the title, director, and cast of the shows / movies. Details such as the release year, the rating, duration etc. As the first step, let's load the dataset, create some new features. In this kernel, I have analysed this dataset to find top insights and findings.</p>
+                            <div class="col-lg-12"> <!-- Cambiado a col-lg-6 para que quepan dos imágenes en una fila -->
+									<div class="bg-item">
+										<img src="img/data_science/etl_python_movies/kaggle_dataset.png" alt="">
+									</div>
+							</div>
+                            <p>CSV File</p>
+                            <div class="col-lg-12 mt-4"> <!-- Cambiado a col-lg-6 para que quepan dos imágenes en una fila -->
+									<div class="bg-item">
+										<img src="img/data_science/etl_python_movies/file_csv.png" alt="">
+									</div>
+							</div>
+                            <p>Python Code</p>
+                            <div class="col-lg-12"> <!-- Cambiado a col-lg-6 para que quepan dos imágenes en una fila -->
+									<div class="bg-item">
+										<img src="img/data_science/etl_python_movies/code_etl_python.png" alt="">
+									</div>
+							</div>
+                            <p>Database - Sqlite</p>
+                            <div class="col-lg-12"> <!-- Cambiado a col-lg-6 para que quepan dos imágenes en una fila -->
+									<div class="bg-item">
+										<img src="img/data_science/etl_python_movies/database_etl.png" alt="">
+									</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+	<!-- Blog Section end -->
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/pana-accordion.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
